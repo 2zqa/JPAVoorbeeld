@@ -1,0 +1,3 @@
+1d)@Id markeert het veld als een primary key
+   @GeneratedValue zegt dat de primary key automatisch wordt ingesteld door ObjectDB (met bijvoorbeeld een getalletje)
+   @Column geeft kenmerken aan van de kolom in de database. (Zoals nullable en naam)
