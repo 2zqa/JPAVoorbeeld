@@ -9,7 +9,7 @@
         <class>nl.hanze.jpa.Telefoon</class>
         <properties>
             <!-- The JDBC driver of your database -->
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <!--property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" /-->
 
             <!-- PostgreSQL JDBC driver example -->
             <!--
