@@ -24,3 +24,15 @@ hs_err_pid*
 
 # Persistence with passwords, please provide your own. See preset-file
 src/main/resources/META-INF/persistence.xml
+
+# build output
+target/
+
+# IDE
+.vscode/
+.idea/
+*.launch
+*.sublime-workspace
+*.iml
+*.swp
+.history/
