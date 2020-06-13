@@ -1,3 +1,15 @@
 1d)@Id markeert het veld als een primary key
    @GeneratedValue zegt dat de primary key automatisch wordt ingesteld door ObjectDB (met bijvoorbeeld een getalletje)
    @Column geeft kenmerken aan van de kolom in de database. (Zoals nullable en naam)
+ e)student, student_telefoon, studie en telefoon.
+2a)Omdat een student meerdere telefoons kan hebben
+ b)* Tussen student en telefoon zit nog een tabel student_telefoon, en daarvoor is @JoinTable
+   * Het is overzichtelijker, (Wat is een VOORDEEL dat we WEL een tabel tussen student en studie hebben staan?)
+ c)Het is zichtbaar omdat een studie een student maar één keer kan bevatten (waarom zou ik tweemaal op dezelfde studie ingeschreven staan?)
+ d)* Onder de tabel student.
+   * @Embeddable betekent dat je Studentkaart een kolom is in een tabel.
+     @Embedded betekent dat het een tabel is die embeddable kan bevatten.
+3a)Stel ik betaal 100 euro, dan moet er 100 euro van mijn rekening worden afgeschreven
+   Bij de bank van de winkel moet dan 100 bijgeschreven worden.
+   Dit is een voorbeeld van een transactie, omdat als maar een van beide bovenstaande delen wordt uitgevoerd er 100 euro verdwijnt. Dus beide moeten of uitgevoerd worden of niet.
+4a)
